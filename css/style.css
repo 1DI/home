@@ -312,14 +312,14 @@ h1{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: black;
+	background: #131313;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: black;
+	background: #131313;
 	display: inline-block;
 }
 
