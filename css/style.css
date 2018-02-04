@@ -115,7 +115,7 @@
 		clear: both;
 	}
 	
-	/* Buttons */<br/><br/>
+	/* Buttons */
 		
 		.button
 		{
@@ -281,6 +281,52 @@
     {
     margin: 0;
     }
+/*********************************************************************************/
+/* countdown                                                                      */
+/*********************************************************************************/
+    
+
+    body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: black;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: dimgray;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: black;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: black;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
     
     
 /*********************************************************************************/
@@ -300,7 +346,8 @@
 	#main
 	{
 		position: relative;
-		background:white;
+		background: white;
+        
 	}
 	
 	.divider
@@ -308,7 +355,16 @@
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
 	}
-
+     
+    .userbutton{
+    border:round 3;
+    background-color:darkred;
+    text-align:center;
+    border-radius:6px;
+    color:white;
+    }
+  
+   
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
