@@ -122,9 +122,16 @@ initializeClock('clockdiv', deadline);
 	<!-- Main -->
 		<div id="main">
 			<div class="container">
-				<header>
-					<h2>La classe</h2>
-				</header>
+				<div class="container">
+  <span class="txt anim-text-flow">How are you? Bacon ipsum dolor sit amet.</span>
+</div>
+				<script>$('.txt').html(function(i, html) {
+  var chars = $.trim(html).split("");
+
+  return '<span>' + chars.join('</span><span>') + '</span>';
+});</script>
+
+<a target="_blank" href="https://twitter.com/hendrysadrak">@hendrysadrak</a>
 				<div class="row">
 					<div class="3u">
 						<section>
