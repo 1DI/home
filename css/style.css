@@ -259,14 +259,16 @@
 			}
 
 /*********************************************************************************/
-/* Header                                                                        */
+/* Header                 
+
+background: #ddd url(../images/header.jpg) no-repeat center;                                                        */
 /*********************************************************************************/
 
 	#header
 	{
 		position: relative;
-		background: #ddd url(../images/header.jpg) no-repeat center;
-		background-size: cover;
+        background: #ddd url(../images/sfondo1.jpg) center no-repeat; 
+		background-size:cover ;
 	}
 
 	#logo
@@ -282,19 +284,12 @@
     margin: 0;
     }
 
- 
-
 /*********************************************************************************/
 /* countdown                                                                      */
 /*********************************************************************************/
     
 
-    body{
-	text-align: center;
-	background: #00ECB9;
-  font-family: sans-serif;
-  font-weight: 100;
-}
+   
 
 h1{
   color: #131313;
